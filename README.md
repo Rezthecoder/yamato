@@ -1,2 +1,2 @@
 # yamato
-<!-- create a branch name was amanyamato -->
+create a branch name was amanyamato
