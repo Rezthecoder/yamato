@@ -240,8 +240,9 @@ border-radius: 15px;
 }
 }
 /* -------------------our facilities------------ */
-.ourfacilities{
-width: 80%;
+.ourFacilities{
+width: 70%;
+margin: auto;
 }
 .fac-txt{
   text-align: center;
@@ -257,11 +258,11 @@ width: 80%;
 }
  .fac-img{
   display: grid;
-  grid-template-columns: repeat(3,1fr 1fr 1fr);
-width: 80%; 
+   grid-template-columns: repeat(3,1fr 1fr ); 
+width: 40%;
 justify-content: space-evenly;
 gap: 30px;
-margin: auto;
+ margin: auto;
 }
 .fac-img{
     display: grid;
@@ -280,6 +281,12 @@ margin: auto;
 }
 .fac-img> div> p{
   text-align: center;
+}
+.Facilities-img{
+height: 100px;
+width: 400px;
+overflow: hidden;
+
 }
 @media screen and (min-width:300px) and (max-width:700px){
   
