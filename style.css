@@ -625,3 +625,16 @@ align-items: center   ;
     width: 100%;
 
   }
+
+.navbar{
+    background-color:bt;
+    overflow: hidden;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
