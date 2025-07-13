@@ -1,21 +1,6 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-}
-nav{
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(174, 220, 174);
-    padding: 20px;
-    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
-    position: sticky;
+.navbar{
+    background-color:bt;
+    overflow: hidden;
 }
 .logo{
     /* margin: 0px 30px; */
