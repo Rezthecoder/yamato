@@ -3,16 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>YAMATO SEIKA VEGETABLE SITE</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-   <div class="navbar">
-    <a href="#title"> YAMATO SEIKA</a>
-    <a href="#Home">Home</a>
-    <a href="#Proudcts">Products</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contant</a>
-   </div>
+    <!--images gallery store here -->
+
+    <section id="image-gallery">
+      <h2 class="gallery-title">店舗紹介</h2>
+      <span class="store-gallery">Store Gallery</span>
+
+      <!--images store-->
+
+      <div class="image-grid">
+        <img src="./assets/images/imgone.jpg" alt="imageone" />
+        <img src="./assets/images/imgtwo.jpg" alt="imagetwo" />
+        <img src="./assets/images/imgthree.jpg" alt="imagethree" />
+        <img src="./assets/images/imgfour.jpg" alt="imagefour" />
+        <img src="./assets/images/imgfive.jpg" alt="imagefive" />
+        <img src="./assets/images/imgsix.jpg" alt="imagesix" />
+      </div>
+    </section>
+
+    <!--second section start here about contact area -->
+
+    <section id="contact-section">
+      <h2 class="contact-heading">お問い合わせ</h2>
+      <p class="cont-us">contact us</p>
+    </section>
+
+    <section class="visit-store">
+      <div class="visit-grid">
+        <div class="visit-details">
+          <h3>📍店舗所在地</h3>
+
+          <span>Visit Our Store</span>
+          <p>
+            〒165-0026 東京都中野区新井5-16-1 5 Chome-16-1 Arai, Nakano City,
+            Tokyo
+          </p>
+
+          <h3>☎️電話番号</h3>
+
+          <span>Phone Number</span>
+          <p>080-9876-7277</p>
+
+          <h3>📧メールアドレス</h3>
+
+          <span>Email Address</span>
+          <p>yamatoseika780@gmail.com</p>
+        </div>
+        <div class="map-button">
+          <a
+            href="https://www.google.com/maps/place/5+Chome-16-1+Arai,+Nakano+City,+Tokyo"
+            target="_blank"
+            class="map-button"
+          >
+            Googleマップで開く
+          </a>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.881123091441!2d139.6702434152586!3d35.71093778018681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f2e4f7977e05%3A0x6d35c205c5f2e947!2s5%20Chome-16-1%20Arai%2C%20Nakano%20City%2C%20Tokyo!5e0!3m2!1sen!2sjp!4v1700000000000"
+            width="100%"
+            height="250"
+            style="
+              border: 0;
+              border-radius: 8px;
+              box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+            "
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
   </body>
 </html>
