@@ -1,0 +1,29 @@
+@media screen and (max-width:940px) {
+  nav ul{
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    background: rgb(174, 223, 181);
+    height: 100vh;
+    width:30%;
+    /* color: white; */
+    display:block;
+    text-align: center;
+
+  } 
+  nav ul li{
+    margin: 40px 0;
+  }
+  nav ul a{
+    font-size:20px;
+  }
+  nav .menu-btn{
+    display:block;
+  }
+  #click:checked ~ .menu-btn:before i{
+    content:"\f00d";
+  }
+}
+@media screen and (min-width:600px)and (max-width:900px){
+    
+}
